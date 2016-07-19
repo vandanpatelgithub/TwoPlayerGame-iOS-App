@@ -12,6 +12,8 @@
 		62CA8D7D1D3EAAD3004ACD40 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CA8D7B1D3EAAD3004ACD40 /* Main.storyboard */; };
 		62CA8D7F1D3EAAD3004ACD40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62CA8D7E1D3EAAD3004ACD40 /* Assets.xcassets */; };
 		62CA8D821D3EAAD3004ACD40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62CA8D801D3EAAD3004ACD40 /* LaunchScreen.storyboard */; };
+		62CA8D8A1D3EABBB004ACD40 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CA8D891D3EABBB004ACD40 /* Character.swift */; };
+		62CA8D8C1D3EADAA004ACD40 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62CA8D8B1D3EADAA004ACD40 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		62CA8D7E1D3EAAD3004ACD40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62CA8D811D3EAAD3004ACD40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62CA8D831D3EAAD3004ACD40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62CA8D891D3EABBB004ACD40 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		62CA8D8B1D3EADAA004ACD40 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				62CA8D7E1D3EAAD3004ACD40 /* Assets.xcassets */,
 				62CA8D801D3EAAD3004ACD40 /* LaunchScreen.storyboard */,
 				62CA8D831D3EAAD3004ACD40 /* Info.plist */,
+				62CA8D891D3EABBB004ACD40 /* Character.swift */,
+				62CA8D8B1D3EADAA004ACD40 /* Player.swift */,
 			);
 			path = TwoPlayerGame;
 			sourceTree = "<group>";
@@ -135,6 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62CA8D8C1D3EADAA004ACD40 /* Player.swift in Sources */,
+				62CA8D8A1D3EABBB004ACD40 /* Character.swift in Sources */,
 				62CA8D7A1D3EAAD3004ACD40 /* ViewController.swift in Sources */,
 				62CA8D781D3EAAD3004ACD40 /* AppDelegate.swift in Sources */,
 			);
